@@ -26,7 +26,7 @@ const Experience = () => {
             }}
           >
             <p style={{ textAlign: 'center' }}>
-              Further in-depth experience pre 2020 can be found on my{' '}
+              Feel free to look me up on
               <a
                 href="https://www.linkedin.com/in/mjigalin/"
                 target="_blank"
@@ -37,7 +37,7 @@ const Experience = () => {
                   cursor: 'pointer',
                 }}
               >
-                LinkedIn
+                Github.
               </a>
               .
             </p>
