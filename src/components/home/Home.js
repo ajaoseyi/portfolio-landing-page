@@ -8,13 +8,16 @@ import Typewriter from 'typewriter-effect'
 import ArrowDropDownCircleIcon from '@material-ui/icons/ArrowDropDownCircle'
 import Navbar from '../navbar/Navbar'
 import config from '../../config'
-import profile from '../../images/matt.png'
-import linkedin from '../../images/social/linkedin.png'
+import profile from '../../images/social/memoji.webp'
+import linkedin from '../../images/social/linkedin1.gif'
+import github from '../../images/social/github1.png'
+import whatsapp from "../../images/social/whatsapp1.png"
 
 const Home = () => {
   const [imageLoaded, setImageLoaded] = useState(false)
   return (
     <div className="home-wrapper">
+      <Navbar />
       <div className="home">
         <Particles className="particles" params={config.particles} />
         <div className={`greeting${!imageLoaded ? ' hide' : ''}`}>
@@ -26,7 +29,7 @@ const Home = () => {
               onLoad={() => setImageLoaded(true)}
             />
             <h1 className="greeting-text">
-              Hi, I'm <span className="name">Matthew Jigalin</span>.{' '}
+              Hi, I'm <span className="name">Abdulsamad Ajao</span>.{' '}
               <span className="wave-emoji" role="img" aria-label="waving hand">
                 👋
               </span>
@@ -35,9 +38,9 @@ const Home = () => {
               <Typewriter
                 options={{
                   strings: [
-                    'I like to design things.',
-                    'I love learning new tech.',
-                    'I love meeting new people.',
+                    'I am a Front-End Developer.',
+                    'I love everything React.',
+                    'I am very proefficent with Tailwind CSS.',
                     'I create unique digital experiences.',
                   ],
                   autoStart: true,
@@ -51,11 +54,25 @@ const Home = () => {
             <Bounce cascade>
               <div className="links">
                 <a
-                  href="https://www.linkedin.com/in/mjigalin/"
+                  href="www.linkedin.com/in/abdulsamad-ajao-9279a11b8"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <img src={linkedin} alt="Linkedin Logo" width="50px" />
+                </a>
+                <a
+                  href="www.linkedin.com/in/abdulsamad-ajao-9279a11b8"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={github} alt="Github Logo" width="50px" />
+                </a>
+                 <a
+                  href="www.linkedin.com/in/abdulsamad-ajao-9279a11b8"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={whatsapp} alt="Github Logo" width="50px" />
                 </a>
               </div>
             </Bounce>
@@ -76,7 +93,6 @@ const Home = () => {
             </div>
           </Fade>
         </div>
-        <Navbar />
       </div>
     </div>
   )

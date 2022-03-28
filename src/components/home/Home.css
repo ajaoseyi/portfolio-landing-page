@@ -53,7 +53,8 @@
 }
 .profile {
   border-radius: 50%;
-  border: 0.2rem solid #0be779;
+  border: 0.2rem solid ;
+  border-image: -webkit-linear-gradient(to right, #dd3e54, #6be585)
 }
 .greeting-text {
   margin: 15px;

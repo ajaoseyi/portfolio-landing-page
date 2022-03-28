@@ -5,6 +5,7 @@ import { Link } from 'react-scroll'
 import { Fade } from 'react-reveal'
 import Section from '../section/Section'
 import Skills from '../skills/Skills'
+import memoji from "../../images/social/memoji2.webp"
 
 const About = () => {
   return (
@@ -26,13 +27,13 @@ const About = () => {
             </p>
             <p>
               <span role="img" aria-label="lightning">
-                ⚡
+                <img src={memoji} alt=""  />
               </span>{' '}
              I have 1 year working experience with JavaScript , React and Next js
             </p>
             <div className="typewriter">
               <p className="typewriter-start">
-                <span role="img" aria-label="lightning">
+                <span role="img" aria-label="lightning" style={{width:"12px"}} >
                   ⚡
                 </span>{' '}
                 I love
@@ -98,7 +99,7 @@ const About = () => {
             </div>
           </div>
         </Fade>
-        <Skills />
+        
       </div>
     </Section>
   )

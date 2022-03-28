@@ -28,8 +28,8 @@ body {
 body {
   margin: 0;
   padding: 0;
-  background: #272b33;
-  color: white;
+  background: white;
+  color: #01170c;
   font-family: 'Montserrat', sans-serif;
   min-width: 320px;
   overflow-x: hidden;
