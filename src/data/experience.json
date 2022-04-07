@@ -5,8 +5,8 @@
       "link": "https://filmfindbysamad.herokuapp.com/",
      
       "title": "Film Find",
-      "dateFrom": "June 2020",
-      "dateTo": "July 2021",
+      "dateFrom": "2021",
+      
       "info": [
         "Search for information on any movie in the world"
       ],
@@ -21,8 +21,8 @@
      
       "title": "Meme-Gen",
       "temp":"../../images/logos//memegenerate.webp",
-      "dateFrom": "August 2020",
-      "dateTo": "Current",
+      "dateFrom": "August 2021",
+     
       "info": [
         "Genrating personalized memes"
       ],
@@ -36,8 +36,8 @@
       "link": "https://checkethbalance.herokuapp.com/",
      
       "title": "CheckMeta",
-      "dateFrom": "2016",
-      "dateTo": "Current",
+      "dateFrom": "2021",
+    
       "info": [
         "Check for information and assets on any of your MetaMask wallets"
       ],
@@ -51,8 +51,8 @@
       "link": "https://embeeportfolio.herokuapp.com/",
       
       "title": "Landing Page",
-      "dateFrom": "2016",
-      "dateTo": "Current",
+      "dateFrom": "2021",
+      
       "info": [
         "Landing Page Portfolio for a UI/UX Designer"
       ],

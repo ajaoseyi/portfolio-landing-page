@@ -43,7 +43,7 @@ const ExperienceCard = ({ experience }) => {
             <div>
               <h2>{title}</h2>
               <h3>
-                {dateFrom} - {dateTo}
+                {dateFrom} {dateTo}
               </h3>
               <ul>
                 {info.map((point, idx) => (
