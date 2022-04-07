@@ -14,26 +14,28 @@ const About = () => {
         <Fade duration={1000}>
           <div className="about-text">
             <h2>Who am I?</h2>
-            <p>
-              I'm Samad
-             
-            </p>
+            <p>I'm Samad</p>
             <p>
               <span role="img" aria-label="lightning">
                 ⚡
               </span>{' '}
-              I'm a software developer that specializes in Front-End technologies, with intrests in
-              Web3 and blockchain technologies 
+              I'm a software developer that specializes in Front-End
+              technologies, with intrests in Web3 and blockchain technologies
             </p>
             <p>
-              <span role="img" aria-label="lightning">
-                <img src={memoji} alt=""  />
+              <span role="img" aria-label="lightning" style={{ width: '12px' }}>
+                ⚡
               </span>{' '}
-             I have 1 year working experience with JavaScript , React and Next js
+              I have 1 year working experience with JavaScript , React and Next
+              js
             </p>
             <div className="typewriter">
               <p className="typewriter-start">
-                <span role="img" aria-label="lightning" style={{width:"12px"}} >
+                <span
+                  role="img"
+                  aria-label="lightning"
+                  style={{ width: '12px' }}
+                >
                   ⚡
                 </span>{' '}
                 I love
@@ -99,7 +101,6 @@ const About = () => {
             </div>
           </div>
         </Fade>
-        
       </div>
     </Section>
   )

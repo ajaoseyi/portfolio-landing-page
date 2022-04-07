@@ -2,7 +2,7 @@ import React from 'react'
 import './ExperienceCard.css'
 
 const ExperienceCard = ({ experience }) => {
-  let { link, company, title, dateFrom, dateTo, info, stack } = experience
+  let { link, company, title, dateFrom, dateTo, info, stack, temp} = experience
   return (
     <a
       className="experience-link"
@@ -22,16 +22,12 @@ const ExperienceCard = ({ experience }) => {
               <div
                 className="experience-bg logo-bg"
                 style={{
-                  background: experience.colourSecondary
-                    ? experience.colourSecondary
-                    : experience.colourPrimary,
+                  backgroundImage: "url('../../images/logos/filmfind.gif')"
                 }}
               ></div>
               <img
                 className="company-logo"
-                src={require(`../../images/logos/${company
-                  .replace(/ /g, '')
-                  .toLowerCase()}.png`)}
+                src={temp}
                 alt={`${company}-logo`}
                 style={
                   experience.logoheight
