@@ -24,7 +24,7 @@ const Home = () => {
           <Fade bottom distance="40px">
             <img
               className="profile"
-              alt="m.jigalin profile"
+              alt="Samad Profile"
               src={profile}
               onLoad={() => setImageLoaded(true)}
             />
@@ -61,14 +61,14 @@ const Home = () => {
                   <img src={linkedin} alt="Linkedin Logo" width="50px" />
                 </a>
                 <a
-                  href="www.linkedin.com/in/abdulsamad-ajao-9279a11b8"
+                  href="https://github.com/ajaoseyi"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <img src={github} alt="Github Logo" width="50px" />
                 </a>
-                 <a
-                  href="www.linkedin.com/in/abdulsamad-ajao-9279a11b8"
+                <a
+                  href="https://wa.me/+2347068692728"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
